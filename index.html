@@ -11,7 +11,7 @@ Testing
 <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.0/backbone.localStorage-min.js" type="text/javascript"></script>
 
 <script type="text/javascript">
-  var appView = Backbone.View.extend({
+  var AppView = Backbone.View.extend({
     el:'#app',
     initialize: function(){
       this.render();
@@ -20,6 +20,7 @@ Testing
       this.$el.html("<i>Loaded</i>");
     }
   });
+  var appView = new AppView();
 </script>
 </body>
 </html>
