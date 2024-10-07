@@ -1,0 +1,29 @@
+baseURL = 'https://natetyoung.github.io/'
+languageCode = 'en-us'
+title = 'Nate Young'
+theme = 'hugo-simple'
+
+[params]
+hideRSSLink = true
+
+[[menu.main]]
+name = "Nathaniel Young"
+pageRef = "/"
+weight = 10
+[[menu.main]]
+name = "Research"
+pageRef = "/research"
+weight = 20
+[[menu.main]]
+name = "Resume"
+URL = "/resume.pdf"
+weight = 30
+[[menu.main]]
+name = "LinkedIn"
+URL = "https://www.linkedin.com/in/nate-young-551249123/"
+weight = 40
+[[menu.main]]
+name = "Contact"
+URL = "mailto:nate.t.w.young@gmail.com"
+weight = 50
+
