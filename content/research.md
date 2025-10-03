@@ -2,7 +2,7 @@
 title = 'Research'
 +++
 
-I am interested in realistic models of computation, especially for accelerated and scalable computing. My goal is to understand computation by studying the fundamental possibilities and limits of how it can be performed.
+I'm interested broadly in realistic models of computation and the fundamental possibilities and limits of how computations can be mapped to the real world and implemented. I work mainly on theory in realistic models and on architecture and compilers for accelerated computing.
 
 ## Publications
 Ce Jin, R. Ryan Williams, and **Nathaniel Young**. _A VLSI Circuit Model Accounting for Wire Delay_. ITCS 2024.\
@@ -11,5 +11,4 @@ Ce Jin, R. Ryan Williams, and **Nathaniel Young**. _A VLSI Circuit Model Account
 
 **Nathaniel Young**. _An Updated Model of Computation for VLSI and Applications to FPGA Implementation_. MS Report, 2022.\
 [Full Text](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2022/EECS-2022-108.html)
-
 
