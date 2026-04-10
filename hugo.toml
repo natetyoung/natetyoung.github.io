@@ -9,6 +9,15 @@ hideRSSLink = true
 name = "Nathaniel Young"
 email = "nate.t.w.young@gmail.com"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
 [[menu.main]]
 name = "Nathaniel Young"
 pageRef = "/"
