@@ -5,6 +5,9 @@ theme = 'hugo-simple'
 
 [params]
 hideRSSLink = true
+[params.author]
+name = "Nathaniel Young"
+email = "nate.t.w.young@gmail.com"
 
 [[menu.main]]
 name = "Nathaniel Young"
